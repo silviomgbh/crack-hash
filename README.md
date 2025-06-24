@@ -1,4 +1,9 @@
+## 🚀 Como Baixar/Download/Use
+![image](https://github.com/user-attachments/assets/f2dd63d5-0025-41e7-b1f3-87caaa9a1a83)
 
+git clone https://github.com/silviomgbh/crack-hash
+cd crack-hash
+chmod +x crack crack-hash.py
 
 <details>
 
@@ -69,8 +74,11 @@ Características Principales:
 
 ## 🚀 Como Usar
 ```bash
-python3 tcc_base64_cracker.py [HASH] -w wordlist.txt
+python3 crack-hash.py [HASH] -w wordlist.txt
+Kali Linux/Parrot
+python3 crack-hash.py hash.txt -w /usr/share/wordlists/rockyou.txt
+python3 crack-hash.py "bXlzZWNyZXRwYXNzd29yZA==" -w wordlist.txt
 
-python3 tcc_base64_cracker.py "bXlzZWNyZXRwYXNzd29yZA==" -w wordlist.txt
+python3 crack-hash.py "bXlzZWNyZXRwYXNzd29yZA==" --brute-force --min-length 6 --max-length 12 --charset "abcdefghijklmnopqrstuvwxyz0123456789"
 
-python3 tcc_base64_cracker.py "bXlzZWNyZXRwYXNzd29yZA==" --brute-force --min-length 6 --max-length 12 --charset "abcdefghijklmnopqrstuvwxyz0123456789"
+
