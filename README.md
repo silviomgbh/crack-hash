@@ -2,7 +2,9 @@
 ![image](https://github.com/user-attachments/assets/f2dd63d5-0025-41e7-b1f3-87caaa9a1a83)
 
 git clone https://github.com/silviomgbh/crack-hash
+
 cd crack-hash
+
 chmod +x crack crack-hash.py
 
 <details>
