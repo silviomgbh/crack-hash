@@ -7,6 +7,8 @@ cd crack-hash
 
 chmod +x crack crack-hash.py
 
+python3 crack-hash.py
+
 <details>
 
 <summary>🇧🇷 Português</summary>
